@@ -1,0 +1,139 @@
+body{
+	font-family: 'Arial', Sans-serif;
+	margin-top: 70px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700px;
+}
+nav{
+	background:#ddd !important;
+	border-radius: 0 !important;
+}
+nav .container{
+	border-bottom: 1px solid #ccc;
+}
+
+nav button
+{
+	background:#00B0FF !important;
+}
+ 
+nav button span{
+	background: #000 !important;
+}
+
+nav li a{
+	color:#000 !important;
+	font-size:14px !important;
+	text-transform: uppercase !important;
+}
+nav li a:hover{
+	color: #ddd !important;
+	background: #aaa !important;
+	border-bottom: 1px solid #00b0ff;
+}
+nav li a span{
+	color:#00b0ff;
+}
+nav #logo{
+	font-size: 30px;
+	color: #000;
+	font-weight: bold;
+}
+nav #logo span{
+	color: #00B0FF;
+	font-size: 32px;
+}
+
+/*end of navigation*/
+
+#header{
+	margin:20px 0 70px 0;
+}
+#header img{
+	width: 90%;
+}
+#header .header-right{
+	margin-top: 150px;
+}
+#header h1{
+	padding-bottom: 20px;
+	font-size: 50px;
+}
+#header p{
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+#header a{
+	background: #00B0FF !important;
+	color: #fff !important;
+	border-radius: 0;
+}
+/*end of header*/
+
+#quote
+{
+	background: #aaa;
+	color: #000 !important;
+	text-align: center;
+	font-size: 22px;
+	padding:40px 0 30px 0;
+}
+#quote .author{
+	font-size: 18px;
+	color: #000;
+}
+
+
+#info1 .info1-right{
+	padding-top: 150px;
+}
+#info1 a{
+	background: #00B0FF !important;
+	color: #fff !important;
+	border-radius: 0;
+}
+#info1 h1{
+	padding-bottom: 20px;
+	font-size: 40px;
+}
+#info1 p{
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+#info2
+{
+text-align: center !important;
+color: #000 !important;
+background: #aaa;
+padding: 40px 0 40px 0;
+}
+#info2 .col-md-6:nth-child(2){
+	border-left: 1px solid #fff;
+}
+
+
+#contact{
+	background: url(../img/image3.png);
+	padding: 40px 0 40px 0;
+
+}
+#contact label{
+	color:#fff;
+}
+#contact button{
+	color:#fff !important;
+	background: #00B0FF !important;
+	border-radius: 0 !important;
+}
+
+footer{
+	padding: 30px 0 40px 0;
+	font-size: 18px;
+	background: #aaa;
+
+}
+col-sm-6{
+	text-align: center !important;
+}
